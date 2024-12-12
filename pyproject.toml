@@ -1,0 +1,16 @@
+[project]
+name = "hexlet-hello-world"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "flake8>=7.1.1",
+]
+
+[project.scripts]
+hello = "hexlet_hello_world:hello"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
