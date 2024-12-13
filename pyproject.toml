@@ -14,3 +14,9 @@ hello = "hexlet_hello_world:hello"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "black>=24.10.0",
+    "ruff>=0.8.3",
+]
